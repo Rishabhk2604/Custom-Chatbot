@@ -1,0 +1,160 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hii",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Hello, Greetings for day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "Tell me about your data science skills",
+        "What are your expertise areas in data science?",
+        "List your data science skills"
+      ],
+      "responses": [
+        "I have expertise in Data Science, Machine Learning, and Data Analytics.",
+        "My skills include LLMA, Time Series Analysis, Data Visualization, and Power BI.",
+        "I specialize in supervised and unsupervised learning algorithms, regression, and object detection."
+      ]
+    },
+    {
+      "tag": "programming_languages",
+      "patterns": [
+        "What programming languages do you know?",
+        "List your programming languages"
+      ],
+      "responses": [
+        "I am proficient in Python including Pytorch, Pandas, Scikit Learn and other Data Science essentials also C, C++, and SQL."
+      ]
+    },
+    {
+      "tag": "education",
+      "patterns": [
+        "Tell me about your education",
+        "What is your educational background?"
+      ],
+      "responses": [
+        "I hold a Bachelor of Technology in Computer Science with an aggregate of 75% from Mandsaur University (2020-24).",
+        "I completed my Senior Secondary education with a percentage of 79.6% from St. Thomas Sr. Sec. School (2019-20)."
+      ]
+    },
+    {
+      "tag": "work_experience",
+      "patterns": [
+        "Tell me about your work experience",
+        "Describe your work experience",
+        "What is your professional background?"
+      ],
+      "responses": [
+        "I have worked as a Software Developer Trainee at Simtrak Solutions (Storewise) working on python backend projects from May 2023 to August 2023 and Currently, I am a Machine Learning Engineer at FODUU (Foundation Of Design Uprising Unit) since September 2023."
+      ]
+    },
+    {
+      "tag": "projects",
+      "patterns": ["Tell me about your projects", "Describe your projects"],
+      "responses": [
+        "I have worked on various projects, including Computer Vision, NLP using Python. Some notable projects involve leveraging FastAPI and leading object detection and classification projects using YOLO model and also built a model from scratch for project work you can check the GitProfile"
+      ]
+    },
+    {
+      "tag": "skills_and_interests",
+      "patterns": ["What are your skills?", "Tell me about your interests"],
+      "responses": [
+        "I have skills in EDA using Python, data visualization, and expertise in analyzing datasets for strategic decision-making.",
+        "My interests include reading novels, playing guitar, stock market analysis, and cooking."
+      ]
+    },
+    {
+      "tag": "tech_stack",
+      "patterns": [
+        "What technologies do you use?",
+        "Tell me about your technical stack"
+      ],
+      "responses": [
+        "I work with PyTorch, NumPy, Pandas, SciPy, Playwright, and Matplotlib in my projects.",
+        "I worked on various CNN, RNN projects and also used some Machine learning algorithms for it."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the programmer go broke? Because he used up all his cache!",
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison.",
+        "Why do programmers prefer dark mode? Because light attracts bugs."
+      ]
+    },
+    {
+      "tag": "open_to_work",
+      "patterns": [
+        "Are you open to work?",
+        "Looking for job opportunities",
+        "Interested in new opportunities"
+      ],
+      "responses": [
+        "Yes, I am open to work and interested in new opportunities.",
+        "Absolutely! I'm actively seeking new job opportunities.",
+        "I'm open to work. Feel free to reach out for any potential collaborations or job opportunities."
+      ]
+    },
+    {
+      "tag": "career_objectives",
+      "patterns": [
+        "What are your career objectives?",
+        "Tell me about your career goals",
+        "What do you aim to achieve in your career?"
+      ],
+      "responses": [
+        "My career objectives include advancing my skills in machine learning and artificial intelligence, contributing to impactful projects, and eventually taking on a leadership role in the field.",
+        "I aspire to become a versatile professional, applying my data science expertise to solve complex problems and make significant contributions to the technology industry.",
+        "My career goals involve continuous learning, staying updated with emerging technologies, and making a positive impact through innovative solutions."
+      ]
+    },
+    {
+      "tag": "Yourself",
+      "patterns": [
+        "Tell me about yourself?",
+        "What are your weaknesses?",
+        "Where do you see yourself in 5 years?"
+      ],
+      "responses": [
+        "I am a undergraduate and currently in my last semester with a Bachelor's in Computer Science. As a Software Developer Trainee at Simtrak Solutions, I honed skills in Python, databases, and web scraping. Currently a Machine Learning Trainee at FODUU, focusing on advancing skills in ML and AI. Beyond tech, I enjoy reading novels, playing guitar, and analyzing the stock market.",
+        "I tend to be overly critical of my work, aiming for perfection. To address it, I've focused on setting realistic goals, breaking tasks into smaller steps, and seeking feedback to maintain efficiency.",
+        "In 5 years, I see myself as a seasoned data scientist contributing to innovative projects. Aspiring to take on a leadership role, mentor a team, and stay at the forefront of tech advancements through continuous learning."
+      ]
+    }
+  ]
+}
